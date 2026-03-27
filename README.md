@@ -12,13 +12,9 @@ Early detection of cancer is critical in healthcare. This project builds a machi
 * Total observations: **683**
 * Features: 9 numerical predictors
 * Target variable: Tumor Class (Benign / Malignant)
+  
 ---
-## 🤖 Why Random Forest?
-- Handles complex, non-linear relationships effectively  
-- Reduces overfitting using ensemble learning  
-- Provides feature importance for interpretability
 
----
 ## 🤖 Why Random Forest?
 - Handles complex, non-linear relationships effectively  
 - Reduces overfitting using ensemble learning  
