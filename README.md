@@ -12,7 +12,21 @@ Early detection of cancer is critical in healthcare. This project builds a machi
 * Total observations: **683**
 * Features: 9 numerical predictors
 * Target variable: Tumor Class (Benign / Malignant)
+---
+## 🤖 Why Random Forest?
+- Handles complex, non-linear relationships effectively  
+- Reduces overfitting using ensemble learning  
+- Provides feature importance for interpretability
 
+---
+## 🤖 Why Random Forest?
+- Handles complex, non-linear relationships effectively  
+- Reduces overfitting using ensemble learning  
+- Provides feature importance for interpretability
+
+---
+## ⚖️ Handling Class Imbalance
+Class weights were applied to give higher importance to malignant cases, improving the model’s ability to detect cancer and reduce critical errors.
 ---
 
 ## ⚙️ Workflow
@@ -68,11 +82,9 @@ Prediction  Benign Malignant
 
 > The model demonstrates excellent classification performance with near-perfect separability.
 
-(Add your ROC image here)
-
-```
-![ROC Curve](roc_curve.png)
-```
+---
+## 📊 ROC Curve & AUC
+- **AUC Score: 0.9964 (Excellent model performance)**
 
 ---
 
@@ -87,11 +99,15 @@ Top contributing features:
 | Bare.nuclei  | 38.43      |
 | Epith.c.size | 28.70      |
 
-(Add your plot here)
+---
+## 🔍 Key Feature Insight
+Cell size and cell shape are the most influential features in predicting cancer, indicating their strong role in tumor classification.
 
-```
-![Feature Importance](feature_importance.png)
-```
+---
+
+## 💡 Business Impact
+This model can support early cancer detection by accurately classifying tumors as benign or malignant.  
+In medical applications, minimizing false negatives is critical to ensure malignant cases are not missed.
 
 ---
 
@@ -118,7 +134,12 @@ Although the model achieves high accuracy, it produces a small number of **false
 * Deploy using Shiny web app
 
 ---
+## ⚠️ Limitations
+- Dataset size is relatively small  
+- No external validation performed  
+- Not suitable for real-world clinical use without further testing  
+---
 
 ## 🎯 Conclusion
 
-The Random Forest model provides strong predictive performance for cancer classification. With further optimization, it can be adapted for real-world diagnostic support systems.
+The Random Forest model provides strong predictive performance for cancer classification. With further optimization, it can be adapted for real-world diagnostic support systems.The Random Forest model demonstrates strong predictive performance with high accuracy and excellent AUC. With further optimization, it can be extended for real-world diagnostic support systems.
