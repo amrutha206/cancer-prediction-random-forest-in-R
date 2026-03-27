@@ -23,6 +23,7 @@ Early detection of cancer is critical in healthcare. This project builds a machi
 ---
 ## ⚖️ Handling Class Imbalance
 Class weights were applied to give higher importance to malignant cases, improving the model’s ability to detect cancer and reduce critical errors.
+
 ---
 
 ## ⚙️ Workflow
