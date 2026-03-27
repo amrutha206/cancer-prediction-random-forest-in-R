@@ -77,10 +77,7 @@ Prediction  Benign Malignant
 * AUC Score: **0.9964**
 
 > The model demonstrates excellent classification performance with near-perfect separability.
-
----
-## 📊 ROC Curve & AUC
-- **AUC Score: 0.9964 (Excellent model performance)**
+>  **AUC Score: 0.9964 (Excellent model performance)**
 
 ---
 
@@ -95,9 +92,7 @@ Top contributing features:
 | Bare.nuclei  | 38.43      |
 | Epith.c.size | 28.70      |
 
----
-## 🔍 Key Feature Insight
-Cell size and cell shape are the most influential features in predicting cancer, indicating their strong role in tumor classification.
+
 
 ---
 
@@ -110,6 +105,7 @@ In medical applications, minimizing false negatives is critical to ensure malign
 ## ⚠️ Key Insight
 
 Although the model achieves high accuracy, it produces a small number of **false negatives (3 cases)**, which is critical in medical diagnosis. Reducing these errors is a priority for future improvements.
+Cell size and cell shape are the most influential features in predicting cancer, indicating their strong role in tumor classification.
 
 ---
 
